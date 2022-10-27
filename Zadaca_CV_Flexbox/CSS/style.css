@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(80, 131, 131);
+}
+
+div.flex_container{
+    display: flex;
+    margin: auto;
+    border: black solid 2px;
+    margin-top: 4%;
+    height: 60%;
+    width: 54%;
+    box-shadow: 0px 0px 11px 11px black;
+
+}
+div.flex_container_1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+div.flex_container_2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(97, 92, 92);
+}
+
+  div.describe{
+    width: 100%;
+    height: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  div.describe h1{
+    padding-bottom: 10px;
+  }
+
+  div.flex_container_2 div.personaldata{
+    height: 28%;
+    padding-left: 15px;
+    background-color: white;
+  }
+div.personaldata h2{
+    color:rgb(62, 136, 136);
+    padding-top:32px;
+    padding-bottom:12px;
+}
+
+div.personaldata table{
+    width: 100%;
+    padding-top: 14px;
+  }
+table tr td span{
+color: rgb(97, 92, 92);
+font-style: italic;
+  }
+
+div.education{
+    height: 44%;
+    background-color: rgb(221, 224, 230);
+  }
+  div.education h1{
+    color:rgb(62, 136, 136);
+    padding-top:32px;
+    padding-bottom:12px;
+    padding-left: 15px;
+  }
+
+  div.education div p{
+    padding-left: 15px;
+  }
+
+  div.education div p.yrs{
+    color:rgb(62, 136, 136);
+  }
+
+  div.education div p span{
+    font-weight: bold;
+  }
+
+hr{
+margin:10px;
+}
